@@ -1,32 +1,72 @@
-body{margin: 0px;}
-nav{
+*{
+  padding:0;
+  margin:0;
+  list-style:none;
+  font-size:20px
+}
+.header{
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: space-between;
+}
+.right>ul{
 	display: flex;
 }
-nav>.logo{
-	flex: none;width: 100px;
-	background-color: #ffcccc;
+.right>li{
+	margin-left: 50px;
 }
-nav>.menu{
-	flex: auto;
-	background-color: #ccccff;
-}
-nav>.user{
-	flex:none;width: 100px;
-	background-color: #ccffcc;
-}
+.head{
+		height: 300px;
+		width: auto;
+		background-color: #00ffff;	
+		text-align:center;
+		line-height: 300px;
+		margin: 0px;
+	}	
+	/*代表背景框框的設定*/
+	h1{
+		font-size: 40px;
+	}
+	h3{
+		align="center;
+		font-weight: bold;
+		color: red;
+	}
+	
 main{
-	display: flex;flex-wrap: wrap;
+	width: 100%;
+	display: flex;
 	justify-content: center;
-	align-items: flex-end;
-	background-color: #cccccc;
 }
-main>.item{
-	flex: none;
-	width: 300px;margin: 10px;
-	background-color: #ffcccc;
+.main2{
+	 font-size:0px;
+	display: flex;
+	max-width: 1200px;
+	justify-content: center;
+	flex-wrap:wrap;
 }
-@media (max-width: 1200px){
-	main>.item{
+.item{
+	   box-sizing:border-box;
+  border:1px solid;
+	width: 23%;
+	margin-left: 2%;
+	text-align: center;
+	background-color: pink;
+  height:150px;
+  margin-top:20px;
+}
+img{
+	width: 100%;	
+		height:70%;
+	}
+@media(max-width: 1200px) {
+	.main2>.item{
 		width: 45%;
+	}
+}
+@media(max-width: 600px){
+	.main2>.item{
+		width: 90%;
 	}
 }
