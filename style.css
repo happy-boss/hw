@@ -1,59 +1,75 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
-	<!--手機概念必須加上這行-->
-	<title>第一周作業</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<div class="top">
-	<div class="logo">My Homework</div>
-	<div class="menu">
-		<img src="https://cdn4.iconfinder.com/data/icons/essential-app-2/16/burger-menu-more-panel-128.png"></img>
-	</div>
-	<div class="item">
-		<div>Item1</div>
-		<div>Item1</div>
-		<div>Item1</div>
-		<div>Item1</div>
-	</div>		
-</div>
-<div class="content">Welcome to Myhome</div>
-<div class="main">
-	<div class="box">
-		<img src="1.jpg" height="250"></img>
-		<div class="wt">炎柱</div>
-	</div>
-	<div class="box">
-		<img src="2.jpg" height="250"></img>
-		<div class="wt">水柱</div>
-	</div>
-	<div class="box">
-		<img src="3.jpg" height="250"></img>
-		<div class="wt">岩柱</div>
-	</div>
-	<div class="box">
-		<img src="4.jpg" height="250"></img>
-		<div class="wt">戀柱</div>
-	</div>
-	<div class="box">
-		<img src="5.jpg" height="250"></img>
-		<div class="wt">音柱</div>
-	</div>
-	<div class="box">
-		<img src="6.jpg" height="250"></img>
-		<div class="wt">蛇柱</div>
-	</div>
-	<div class="box">
-		<img src="7.jpg" height="250"></img>
-		<div class="wt">風柱</div>
-	</div>
-	<div class="box">
-		<img src="8.jpg" height="250"></img>
-		<div class="wt">佐柱</div>
-	</div>
-</div>
-</body>
-</html>
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
+.logo{
+	display: flex;
+}
+.menu{
+	display: none;
+	width: 20px;
+	height: 20px;
+}
+.item{
+	display: flex;
+	margin-left: : 50px;
+}
+.content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: bold;
+	height: 300px;
+	background-color: #00ffff;
+	font-size: 40px;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	max-width: 1200px;
+	flex-wrap:wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+.box{
+	width: 23%;
+	margin: 10px;
+	height: 100%;
+
+}
+img{
+	display:block;
+	width: 100%;
+	}
+.wt{
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	font-size:20px;
+	background-color: pink;
+}	
+@media(max-width: 1200px) {
+	.box{
+		width: 45%;
+	}
+}
+
+@media(max-width: 600px){
+	.box{
+		width: 90%;
+	}
+	.item{
+		display:none;
+	}
+	.menu{
+		display: block;
+		justify-content:flex-end;
+	}
+	.logo{
+		display:flex-start;
+	}
