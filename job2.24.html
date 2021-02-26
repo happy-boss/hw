@@ -8,40 +8,52 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="header">
-	<div class="left">MyHomework
+<div class="top">
+	<div class="logo">My Homework</div>
+	<div class="menu">
+		<img src="https://cdn4.iconfinder.com/data/icons/essential-app-2/16/burger-menu-more-panel-128.png"></img>
 	</div>
-	<div class="right">
-		<ul>
-		<li>Item1</li>
-		<li>Item2</li>
-		<li>Item3</li>
-		<li>Item4</li>
-		</ul>
+	<div class="item">
+		<div>Item1</div>
+		<div>Item1</div>
+		<div>Item1</div>
+		<div>Item1</div>
+	</div>		
+</div>
+<div class="content">Welcome to Myhome</div>
+<div class="main">
+	<div class="box">
+		<img src="1.jpg" height="250"></img>
+		<div class="wt">炎柱</div>
 	</div>
+	<div class="box">
+		<img src="2.jpg" height="250"></img>
+		<div class="wt">水柱</div>
 	</div>
-	<div class="head">
-	<h1>Welcome to MyHome</h1>
+	<div class="box">
+		<img src="3.jpg" height="250"></img>
+		<div class="wt">岩柱</div>
 	</div>
-	<div class="main">
-		<div class="main2">
-		<div class="item"> <img src="1.jpg">
-		<h3>炎柱</h3></div>
-		<div class="item"> <img src="2.jpg">
-		<h3>水柱</h3></div>
-		<div class="item"> <img src="3.jpg">
-		<h3>岩柱</h3></div>
-		<div class="item" > <img src="4.jpg">
-		<h3>戀柱</h3></div>
-		<div class="item"> <img src="5.jpg">
-		<h3>音柱</h3></div>
-		<div class="item"> <img src="6.jpg">
-		<h3>蛇柱</h3></div>
-		<div class="item"> <img src="7.jpg">
-		<h3>風住</h3></div>
-		<div class="item"> <img src="8.jpg">
-		<h3>佐柱</h3></div>
-		</div>
+	<div class="box">
+		<img src="4.jpg" height="250"></img>
+		<div class="wt">戀柱</div>
+	</div>
+	<div class="box">
+		<img src="5.jpg" height="250"></img>
+		<div class="wt">音柱</div>
+	</div>
+	<div class="box">
+		<img src="6.jpg" height="250"></img>
+		<div class="wt">蛇柱</div>
+	</div>
+	<div class="box">
+		<img src="7.jpg" height="250"></img>
+		<div class="wt">風柱</div>
+	</div>
+	<div class="box">
+		<img src="8.jpg" height="250"></img>
+		<div class="wt">佐柱</div>
+	</div>
 </div>
 </body>
 </html>
