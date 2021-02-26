@@ -30,7 +30,7 @@
 		<img src="2.jpg" height="250"></img>
 		<div class="wt">水柱</div>
 	</div>
-	<div class="box">
+	<div class="box" >
 		<img src="3.jpg" height="250"></img>
 		<div class="wt">岩柱</div>
 	</div>
