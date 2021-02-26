@@ -37,14 +37,14 @@ body{
 	margin-right: auto;
 }
 .box{
-	width: 23%;
-	margin: 10px;
-	height: 100%;
-
+    width: 23%;
+    margin: 10px;
+    height: 100%;
 }
 img{
 	display:block;
 	width: 100%;
+	object-fit:cover;
 	}
 .wt{
 	text-align: center;
